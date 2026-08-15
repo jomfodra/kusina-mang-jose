@@ -1,0 +1,16 @@
+{
+  "projectName": "kusina-mang-jose",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "react",
+  "environmentVariables": {
+    "VITE_APP_URL": "@kusina_app_url",
+    "VITE_API_URL": "@kusina_api_url"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
